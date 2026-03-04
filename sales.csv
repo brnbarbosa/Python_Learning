@@ -1,0 +1,6 @@
+date,client,invoice_id,amount,status
+2026-03-01,Acme Ltd,INV-1001,1250.50,paid
+2026-03-01,Beta SA,INV-1002,980.00,open
+2026-03-02,Curitiba Foods,INV-1003,210.75,paid
+2026-03-03,Delta Motors,INV-1004,5400.00,overdue
+2026-03-03,Echo Services,INV-1005,300.00,open

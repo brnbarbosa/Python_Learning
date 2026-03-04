@@ -6,6 +6,7 @@ A small collection of beginner-friendly Python practice scripts focused on:
 - Dictionaries
 - Input validation
 - File reading and writing
+- CSV reading, filtering, and aggregation
 
 ## Project Structure
 
@@ -19,7 +20,13 @@ A small collection of beginner-friendly Python practice scripts focused on:
 - `file_read.py`: counts lines in a file with `FileNotFoundError` handling.
 - `file_write_append.py`: appends user-provided text to a file.
 - `file_reading_and_writing.py`: copies content from a source file to a destination file.
+- `csv_basics.py`: reads a CSV file, skips the header, and counts data rows.
+- `csv_count_row_condition.py`: counts rows where `status` is `paid` using `csv.DictReader`.
+- `csv_total_by_status.py`: computes totals grouped by invoice status (`paid`, `open`, `overdue`).
+- `csv_reusing_total_by_status.py`: imports and reuses `totals_by_status()` from another module.
+- `csv_copy.py`: copies only `paid` rows from a source CSV into a new output CSV.
 - `data.txt` / `new_data.txt`: sample text files for file I/O practice.
+- `sales.csv` / `copy_sales.csv`: sample CSV files for CSV practice scripts.
 
 ## Requirements
 
