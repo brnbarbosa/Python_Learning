@@ -3,3 +3,5 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+refactoring_project/.venv/
+refactoring_project/src/*.egg-info/

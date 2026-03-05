@@ -3,15 +3,20 @@
 A small collection of beginner-friendly Python practice scripts focused on:
 
 - Lists and loops
+- List comprehensions and lambda sorting
 - Dictionaries
 - Input validation
 - File reading and writing
 - CSV reading, filtering, and aggregation
+- Refactoring into a small reusable package
 
 ## Project Structure
 
 - `list_get_positive_append.py`: asks for a positive number, builds a list from `1..n`, and prints the sum.
 - `list_parsing_input.py`: parses space-separated integers and prints count, sum, min, and max.
+- `list_comp.py`: normalization and filtering examples with list comprehensions.
+- `lambda_sorting.py`: sorting tuples with a lambda key (descending count, ascending name).
+- `lambda_listcomp.py`: returns top-k statuses using sorting + list comprehension and validation.
 - `dict_basic.py`: dictionary lookup example for a fixed item.
 - `dict_loop.py`: loops through dictionary items and prints each key/value pair.
 - `dict_lookup_user_input.py`: user-driven dictionary lookup with "not found" handling.
@@ -27,6 +32,15 @@ A small collection of beginner-friendly Python practice scripts focused on:
 - `csv_copy.py`: copies only `paid` rows from a source CSV into a new output CSV.
 - `data.txt` / `new_data.txt`: sample text files for file I/O practice.
 - `sales.csv` / `copy_sales.csv`: sample CSV files for CSV practice scripts.
+
+## Refactoring Project
+
+`refactoring_project/` contains an in-progress package refactor using a `src/` layout:
+
+- `pyproject.toml`: project metadata for `bruno-tools`.
+- `src/bruno_tools/reporting.py`: reusable `top_statuses()` helper.
+- `src/bruno_tools/__init__.py`: package marker.
+- `scripts/status_report.py` and `scripts/export_paid.py`: placeholders for CLI scripts.
 
 ## Requirements
 
