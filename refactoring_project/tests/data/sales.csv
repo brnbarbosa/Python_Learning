@@ -1,0 +1,6 @@
+date,client,invoice_id,amount,status
+2026-03-01,Acme,INV-1,10.0,paid
+2026-03-01,Beta,INV-2,20.0, PAID
+2026-03-02,Gamma,INV-3,30.0,open
+2026-03-03,Delta,INV-4,40.0, overdue 
+2026-03-03,Echo,INV-5,50.0,canceled

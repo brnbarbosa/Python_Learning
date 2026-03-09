@@ -38,9 +38,11 @@ A small collection of beginner-friendly Python practice scripts focused on:
 `refactoring_project/` contains an in-progress package refactor using a `src/` layout:
 
 - `pyproject.toml`: project metadata for `bruno-tools`.
+- `src/bruno_tools/csv_utils.py`: reusable CSV helpers (`totals_by_status`, `export_rows_by_status`).
 - `src/bruno_tools/reporting.py`: reusable `top_statuses()` helper.
 - `src/bruno_tools/__init__.py`: package marker.
 - `scripts/status_report.py` and `scripts/export_paid.py`: placeholders for CLI scripts.
+- `tests/`: small script-based tests plus sample CSV fixtures under `tests/data/`.
 
 ## Requirements
 

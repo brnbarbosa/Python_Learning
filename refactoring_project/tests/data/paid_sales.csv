@@ -1,0 +1,3 @@
+date,client,invoice_id,amount,status
+2026-03-01,Acme,INV-1,10.0,paid
+2026-03-01,Beta,INV-2,20.0, PAID
