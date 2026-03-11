@@ -5,3 +5,4 @@ __pycache__/
 .Python
 refactoring_project/.venv/
 refactoring_project/src/*.egg-info/
+refactoring_project/tests/tmp/
