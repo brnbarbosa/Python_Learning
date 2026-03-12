@@ -41,7 +41,7 @@ Most beginner scripts now live under `exercises/`:
 
 - `pyproject.toml`: project metadata for `bruno-tools`.
 - `src/bruno_tools/csv_utils.py`: reusable CSV helpers (`totals_by_status`, `export_rows_by_status`).
-- `src/bruno_tools/cli.py`: small command-line entry script for exporting rows by status.
+- `src/bruno_tools/cli.py`: command-line helper that resolves relative source files from `tests/data/` and writes exports to `tests/tmp/`.
 - `src/bruno_tools/reporting.py`: reusable `top_statuses()` helper.
 - `src/bruno_tools/__init__.py`: package marker.
 - `scripts/status_report.py` and `scripts/export_paid.py`: placeholders for CLI scripts.
